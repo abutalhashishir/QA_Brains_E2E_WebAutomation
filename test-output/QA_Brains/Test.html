@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 12 17:03:21 BDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>703 seconds (703874 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='qa.testcases.CreatePostTest.BlogPostTest()'><b>BlogPostTest</b><br>Test class: qa.testcases.CreatePostTest</td>
+<td></td>
+<td>107</td>
+<td>qa.testcases.CreatePostTest@1b7cc17c</td></tr>
+<tr>
+<td title='qa.testcases.HomePageTest.ExplorePostViewTest()'><b>ExplorePostViewTest</b><br>Test class: qa.testcases.HomePageTest</td>
+<td></td>
+<td>9</td>
+<td>qa.testcases.HomePageTest@4efbca5a</td></tr>
+<tr>
+<td title='qa.testcases.LoginTest.LoginWithInvalidEmial()'><b>LoginWithInvalidEmial</b><br>Test class: qa.testcases.LoginTest</td>
+<td></td>
+<td>9</td>
+<td>qa.testcases.LoginTest@6069db50</td></tr>
+<tr>
+<td title='qa.testcases.LoginTest.LoginWithValidCredentials()'><b>LoginWithValidCredentials</b><br>Test class: qa.testcases.LoginTest</td>
+<td></td>
+<td>9</td>
+<td>qa.testcases.LoginTest@6069db50</td></tr>
+<tr>
+<td title='qa.testcases.SignupTest.verifyRegisteringAccountWithoutFillingAnyDetails()'><b>verifyRegisteringAccountWithoutFillingAnyDetails</b><br>Test class: qa.testcases.SignupTest</td>
+<td></td>
+<td>13</td>
+<td>qa.testcases.SignupTest@4fb0f2b9</td></tr>
+<tr>
+<td title='qa.testcases.SignupTest.verifyRegisteringAccountWithALlFieldForEmploy()'><b>verifyRegisteringAccountWithALlFieldForEmploy</b><br>Test class: qa.testcases.SignupTest</td>
+<td></td>
+<td>39</td>
+<td>qa.testcases.SignupTest@4fb0f2b9</td></tr>
+<tr>
+<td title='qa.testcases.HomePageTest.trendingDiscussionPostViewTest()'><b>trendingDiscussionPostViewTest</b><br>Test class: qa.testcases.HomePageTest</td>
+<td></td>
+<td>9</td>
+<td>qa.testcases.HomePageTest@4efbca5a</td></tr>
+<tr>
+<td title='qa.testcases.LoginTest.LoginWithInvalidCredentials()'><b>LoginWithInvalidCredentials</b><br>Test class: qa.testcases.LoginTest</td>
+<td></td>
+<td>9</td>
+<td>qa.testcases.LoginTest@6069db50</td></tr>
+<tr>
+<td title='qa.testcases.HomePageTest.TrendingPostViewTest()'><b>TrendingPostViewTest</b><br>Test class: qa.testcases.HomePageTest</td>
+<td></td>
+<td>9</td>
+<td>qa.testcases.HomePageTest@4efbca5a</td></tr>
+<tr>
+<td title='qa.testcases.SignupTest.verifyRegisteringAccountWithoutTryDifferentPassword()'><b>verifyRegisteringAccountWithoutTryDifferentPassword</b><br>Test class: qa.testcases.SignupTest</td>
+<td></td>
+<td>32</td>
+<td>qa.testcases.SignupTest@4fb0f2b9</td></tr>
+<tr>
+<td title='qa.testcases.LoginTest.verifyLoginAccountWithEmptyField()'><b>verifyLoginAccountWithEmptyField</b><br>Test class: qa.testcases.LoginTest</td>
+<td></td>
+<td>6</td>
+<td>qa.testcases.LoginTest@6069db50</td></tr>
+<tr>
+<td title='qa.testcases.SignupTest.verifyRegisteringAccountWithALlField()'><b>verifyRegisteringAccountWithALlField</b><br>Test class: qa.testcases.SignupTest</td>
+<td></td>
+<td>32</td>
+<td>qa.testcases.SignupTest@4fb0f2b9</td></tr>
+<tr>
+<td title='qa.testcases.HomePageTest.PopularPostViewTest()'><b>PopularPostViewTest</b><br>Test class: qa.testcases.HomePageTest</td>
+<td></td>
+<td>9</td>
+<td>qa.testcases.HomePageTest@4efbca5a</td></tr>
+<tr>
+<td title='qa.testcases.SignupTest.verifyRegisteringAccountWithALlFieldForStudent()'><b>verifyRegisteringAccountWithALlFieldForStudent</b><br>Test class: qa.testcases.SignupTest</td>
+<td></td>
+<td>39</td>
+<td>qa.testcases.SignupTest@4fb0f2b9</td></tr>
+</table><p>
+</body>
+</html>

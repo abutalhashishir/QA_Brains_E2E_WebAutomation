@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-12T17:03:21 BDT" name="QA_Brains" finished-at="2024-11-12T17:15:05 BDT" duration-ms="703874">
+    <groups>
+    </groups>
+    <test started-at="2024-11-12T17:03:21 BDT" name="Test" finished-at="2024-11-12T17:15:05 BDT" duration-ms="703874">
+      <class name="qa.testcases.SignupTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:03:21 BDT" name="setup" finished-at="2024-11-12T17:03:40 BDT" duration-ms="18611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringAccountWithALlField()[pri:1, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:03:40 BDT" name="verifyRegisteringAccountWithALlField" finished-at="2024-11-12T17:04:12 BDT" duration-ms="32560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithALlField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:04:12 BDT" name="tearDown" finished-at="2024-11-12T17:04:13 BDT" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:04:13 BDT" name="setup" finished-at="2024-11-12T17:04:30 BDT" duration-ms="16943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringAccountWithoutFillingAnyDetails()[pri:2, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:04:30 BDT" name="verifyRegisteringAccountWithoutFillingAnyDetails" finished-at="2024-11-12T17:04:43 BDT" duration-ms="13457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithoutFillingAnyDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:04:43 BDT" name="tearDown" finished-at="2024-11-12T17:04:45 BDT" duration-ms="1906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:04:45 BDT" name="setup" finished-at="2024-11-12T17:05:00 BDT" duration-ms="15359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringAccountWithALlFieldForStudent()[pri:3, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:05:00 BDT" name="verifyRegisteringAccountWithALlFieldForStudent" finished-at="2024-11-12T17:05:40 BDT" duration-ms="39943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithALlFieldForStudent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:05:40 BDT" name="tearDown" finished-at="2024-11-12T17:05:41 BDT" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:05:41 BDT" name="setup" finished-at="2024-11-12T17:06:16 BDT" duration-ms="35160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringAccountWithALlFieldForEmploy()[pri:4, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:06:16 BDT" name="verifyRegisteringAccountWithALlFieldForEmploy" finished-at="2024-11-12T17:06:55 BDT" duration-ms="39469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithALlFieldForEmploy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:06:55 BDT" name="tearDown" finished-at="2024-11-12T17:06:56 BDT" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:06:56 BDT" name="setup" finished-at="2024-11-12T17:07:14 BDT" duration-ms="18521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringAccountWithoutTryDifferentPassword()[pri:5, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:07:14 BDT" name="verifyRegisteringAccountWithoutTryDifferentPassword" finished-at="2024-11-12T17:07:47 BDT" duration-ms="32510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithoutTryDifferentPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.SignupTest@4fb0f2b9]" started-at="2024-11-12T17:07:47 BDT" name="tearDown" finished-at="2024-11-12T17:07:47 BDT" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.testcases.SignupTest -->
+      <class name="qa.testcases.CreatePostTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.CreatePostTest@1b7cc17c]" started-at="2024-11-12T17:12:32 BDT" name="setup" finished-at="2024-11-12T17:13:17 BDT" duration-ms="44484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="BlogPostTest()[pri:1, instance:qa.testcases.CreatePostTest@1b7cc17c]" started-at="2024-11-12T17:13:17 BDT" name="BlogPostTest" finished-at="2024-11-12T17:15:04 BDT" duration-ms="107633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogPostTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.CreatePostTest@1b7cc17c]" started-at="2024-11-12T17:15:04 BDT" name="tearDown" finished-at="2024-11-12T17:15:05 BDT" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.testcases.CreatePostTest -->
+      <class name="qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.LoginTest@6069db50]" started-at="2024-11-12T17:07:47 BDT" name="setup" finished-at="2024-11-12T17:07:59 BDT" duration-ms="12375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWithValidCredentials()[pri:1, instance:qa.testcases.LoginTest@6069db50]" started-at="2024-11-12T17:07:59 BDT" name="LoginWithValidCredentials" finished-at="2024-11-12T17:08:09 BDT" duration-ms="9401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.LoginTest@6069db50]" started-at="2024-11-12T17:08:09 BDT" name="tearDown" finished-at="2024-11-12T17:08:09 BDT" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.LoginTest@6069db50]" started-at="2024-11-12T17:08:09 BDT" name="setup" finished-at="2024-11-12T17:08:35 BDT" duration-ms="26433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWithInvalidCredentials()[pri:2, instance:qa.testcases.LoginTest@6069db50]" started-at="2024-11-12T17:08:35 BDT" name="LoginWithInvalidCredentials" finished-at="2024-11-12T17:08:45 BDT" duration-ms="9408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.LoginTest@6069db50]" started-at="2024-11-12T17:08:45 BDT" name="tearDown" finished-at="2024-11-12T17:08:45 BDT" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.LoginTest@6069db50]" started-at="2024-11-12T17:08:45 BDT" name="setup" finished-at="2024-11-12T17:09:17 BDT" duration-ms="32272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWithInvalidEmial()[pri:3, instance:qa.testcases.LoginTest@6069db50]" started-at="2024-11-12T17:09:17 BDT" name="LoginWithInvalidEmial" finished-at="2024-11-12T17:09:27 BDT" duration-ms="9386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidEmial -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.LoginTest@6069db50]" started-at="2024-11-12T17:09:27 BDT" name="tearDown" finished-at="2024-11-12T17:09:27 BDT" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.LoginTest@6069db50]" started-at="2024-11-12T17:09:27 BDT" name="setup" finished-at="2024-11-12T17:09:57 BDT" duration-ms="29952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginAccountWithEmptyField()[pri:4, instance:qa.testcases.LoginTest@6069db50]" started-at="2024-11-12T17:09:57 BDT" name="verifyLoginAccountWithEmptyField" finished-at="2024-11-12T17:10:03 BDT" duration-ms="6197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginAccountWithEmptyField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.LoginTest@6069db50]" started-at="2024-11-12T17:10:03 BDT" name="tearDown" finished-at="2024-11-12T17:10:03 BDT" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.testcases.LoginTest -->
+      <class name="qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.HomePageTest@4efbca5a]" started-at="2024-11-12T17:10:03 BDT" name="setup" finished-at="2024-11-12T17:10:15 BDT" duration-ms="11140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TrendingPostViewTest()[pri:1, instance:qa.testcases.HomePageTest@4efbca5a]" started-at="2024-11-12T17:10:15 BDT" name="TrendingPostViewTest" finished-at="2024-11-12T17:10:24 BDT" duration-ms="9230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrendingPostViewTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.HomePageTest@4efbca5a]" started-at="2024-11-12T17:10:24 BDT" name="tearDown" finished-at="2024-11-12T17:10:24 BDT" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.HomePageTest@4efbca5a]" started-at="2024-11-12T17:10:24 BDT" name="setup" finished-at="2024-11-12T17:11:06 BDT" duration-ms="41623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PopularPostViewTest()[pri:2, instance:qa.testcases.HomePageTest@4efbca5a]" started-at="2024-11-12T17:11:06 BDT" name="PopularPostViewTest" finished-at="2024-11-12T17:11:15 BDT" duration-ms="9255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PopularPostViewTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.HomePageTest@4efbca5a]" started-at="2024-11-12T17:11:15 BDT" name="tearDown" finished-at="2024-11-12T17:11:15 BDT" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.HomePageTest@4efbca5a]" started-at="2024-11-12T17:11:15 BDT" name="setup" finished-at="2024-11-12T17:11:58 BDT" duration-ms="42386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ExplorePostViewTest()[pri:3, instance:qa.testcases.HomePageTest@4efbca5a]" started-at="2024-11-12T17:11:58 BDT" name="ExplorePostViewTest" finished-at="2024-11-12T17:12:07 BDT" duration-ms="9311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExplorePostViewTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.HomePageTest@4efbca5a]" started-at="2024-11-12T17:12:07 BDT" name="tearDown" finished-at="2024-11-12T17:12:07 BDT" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.testcases.HomePageTest@4efbca5a]" started-at="2024-11-12T17:12:07 BDT" name="setup" finished-at="2024-11-12T17:12:23 BDT" duration-ms="15304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="trendingDiscussionPostViewTest()[pri:4, instance:qa.testcases.HomePageTest@4efbca5a]" started-at="2024-11-12T17:12:23 BDT" name="trendingDiscussionPostViewTest" finished-at="2024-11-12T17:12:32 BDT" duration-ms="9247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trendingDiscussionPostViewTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.testcases.HomePageTest@4efbca5a]" started-at="2024-11-12T17:12:32 BDT" name="tearDown" finished-at="2024-11-12T17:12:32 BDT" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.testcases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- QA_Brains -->
+</testng-results>
